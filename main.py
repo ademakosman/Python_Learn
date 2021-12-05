@@ -1,13 +1,11 @@
 #Data Types
 # print(len(input("What is your name\n")))
+# print(8/3)
 
+score = 0
+height = 1.75
+isWinning = True
 
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
-# 🚨 Don't change the code above 👆
+#f-String
 
-#Write your code below this line 👇
-
-# Turn to string to integer with int 
-bmi = int(weight) /float(height)**2
-print(bmi)
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
