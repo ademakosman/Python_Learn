@@ -1,12 +1,20 @@
-# round make float number shorter
-# if you use two // print(8//3) you can get integer result, if you use one / print(8/3) you can get float result
- # print(round(8/3,2))
+# 🚨 Don't change the code below 👇
+age = input("What is your current age? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+age_as_int = int(age)
+
+years_remaining = 90 -  age_as_int
+days_remaining = years_remaining * 365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
+
+print(f"You have {days_remaining} days, {weeks_remaining} week,{months_remaining} months" )
 
 
-score = 0
-height = 1.75
-isWinning = True
 
-#f-String
 
-print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
+
+
